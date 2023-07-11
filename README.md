@@ -4,7 +4,10 @@
 
 BreachShield is a web application that enables users to conduct secure searches across various data breaches, helping them ascertain whether their password has ever been compromised. Additionally, it offers essential recommendations to strengthen passwords and presents a comprehensive roster of breached websites, complete with breach dates, the number of compromised accounts, and the breached data.
 
-
+## Key Features
+- Securely search multiple data breaches to determine if a password has been compromised.
+- Provide password strength recommendations based on industry best practices.
+- Display an exhaustive list of breached websites with breach dates, compromised account counts, and breached data.
 
 ## Project Setup Instruction
 
