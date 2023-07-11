@@ -11,7 +11,7 @@ BreachShield is a web application that enables users to conduct secure searches 
 1. Clone the project
 
 ```bash
-  git clone https://github.com/bhavy2202/password-breach-checker.git
+  git clone https://github.com/bhavy2202/BreachShield.git
 ```
 
 2. Make sure python 3.8 or above and pip is installed. Refer [here](https://www.python.org/downloads/) for python installation.
