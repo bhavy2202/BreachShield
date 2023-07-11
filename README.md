@@ -3,7 +3,15 @@
 
 ![1](https://github.com/bhavy2202/BreachShield/assets/114098067/97bec663-8a92-4873-92f4-6e4ba079778f)
 BreachShield is a web application that enables users to conduct secure searches across various data breaches, helping them ascertain whether their password has ever been compromised. Additionally, it offers essential recommendations to strengthen passwords and presents a comprehensive roster of breached websites, complete with breach dates, the number of compromised accounts, and the breached data.
-
+It utilizes 
+[k-anonymity](https://en.wikipedia.org/wiki/K-anonymity) which allows external parties to use
+it and maintain anonymity. The pwned password service only requires first 5 characters of SHA-I 
+password hash and returns a list of SHA-I hashes matching the first 5 characters, thus delegating the 
+responsibility to the client to match the password hash against the list provided by the service. This 
+ensures that the service is not aware about the full password hash and thus cannot use it to generate the 
+raw password.
+Please refer [here](https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/) for further
+details with illustrated example.
 
 ## Key Features
 - Securely search multiple data breaches to determine if a password has been compromised.
@@ -17,7 +25,7 @@ BreachShield is a web application that enables users to conduct secure searches 
 - Flask-Bootstrap4: Integration of Bootstrap framework for enhanced UI components.
 - Flask-WTF: Simplified form handling using WTForms library.
 
-- 
+  
 ## Project Setup Instruction
 
 
