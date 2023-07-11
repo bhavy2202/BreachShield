@@ -62,3 +62,8 @@ pip install -r requirements.txt
 ```bash
  flask run
 ```
+## Acknowledgments
+I would like to express my gratitude to the developers and contributors of Flask, Flask-Bootstrap4, and Flask-WTF for their valuable libraries and resources.
+
+## Contact Information
+For any questions or feedback, please contact me at [bhavyrahangdale2202@gmail.com].
