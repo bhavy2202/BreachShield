@@ -9,7 +9,7 @@ BreachShield is a web application that enables users to conduct secure searches 
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Key Features">Key Features</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
